@@ -14,6 +14,8 @@ public class UserDaoImpl {
 	static ArrayList<User> userList = new ArrayList<User>();
 
 	static int count = 2;
+	
+	String githubpractice = "Hello world";
 
 	static {
 		userList.add(new User(0, "Ramesh", new Date()));
