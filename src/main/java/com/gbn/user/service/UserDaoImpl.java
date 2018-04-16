@@ -12,6 +12,7 @@ import com.gbn.user.model.User;
 public class UserDaoImpl {
 
 	static ArrayList<User> userList = new ArrayList<User>();
+	
 
 	static int count = 2;
 
@@ -22,6 +23,7 @@ public class UserDaoImpl {
 	}
 
 	public ArrayList<User> findAllUsers() {
+		System.out.println("within findAllUsers");
 		return userList;
 	}
 
