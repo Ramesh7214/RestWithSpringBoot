@@ -31,6 +31,7 @@ public class RestWithSpringBootApplication {
 	
 	@Bean
 	public ResourceBundleMessageSource messageSource() {
+		System.out.println("mahesh changes");
 		ResourceBundleMessageSource rb = new ResourceBundleMessageSource();
 		rb.setBasename("messages");
 		return rb;
