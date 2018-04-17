@@ -26,12 +26,12 @@ public class RestWithSpringBootApplication {
 	public LocaleResolver localeResolver() {
 		AcceptHeaderLocaleResolver resolver = new AcceptHeaderLocaleResolver();
 		resolver.setDefaultLocale(Locale.US);
+		
 		return resolver;
 	}
 	
 	@Bean
 	public ResourceBundleMessageSource messageSource() {
-		System.out.println("mahesh changes");
 		ResourceBundleMessageSource rb = new ResourceBundleMessageSource();
 		rb.setBasename("messages");
 		return rb;
