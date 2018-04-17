@@ -20,8 +20,7 @@ public class RestWithSpringBootApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(RestWithSpringBootApplication.class, args);
-		System.out.println("hai hai hai hai hai hai");
-		
+	System.out.println("hello hello hello");
 	}
 	
 	@Bean
